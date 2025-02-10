@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login/Registration</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="practice.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Login Form -->
+    <div class="form-container" id="login-section">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Login</button>
+      </form>
+      <p id="login-message"></p>
+      <hr>
+      <p>Don't have an account?</p>
+      <button id="goToRegister">Register</button> <!-- Register Button -->
+    </div>
+
+    <!-- Registration Form -->
+    <div class="form-container" id="register-section" style="display: none;">
+      <h2>Register</h2>
+      <form id="registerForm">
+        <label for="registerUsername">Username:</label>
+        <input type="text" id="registerUsername" name="registerUsername" required><br><br>
+        <label for="registerEmail">Email:</label>
+        <input type="email" id="registerEmail" name="registerEmail" required><br><br>
+        <label for="registerPassword">Password:</label>
+        <input type="password" id="registerPassword" name="registerPassword" required><br><br>
+        <button type="submit">Register</button>
+      </form>
+      <p id="register-message"></p>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> News Aggregator</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">NEWS AGGREGATOR</div>
+        <ul class="nav-links">
+            <li><a href="practice.html">Home</a></li>
+            <li class="category">
+                <a href="#">Categories</a>
+                <div class="dropdown">
+                    <a href="cricket.html">Cricket</a>
+                    <a href="basketball.html">Basketball</a>
+                    <a href="football.html">Football</a>
+                    <a href="volleyball.html">Volleyball</a>
+                 <!--   <a href="kabaddi.html">Kabaddi</a>-->
+                </div>
+            </li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Main Content -->
+    <div class="content-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>League Standings</h2>
+
+            <!-- ICC Cricket Rankings -->
+            <div id="icc-rankings">
+                <h3>ICC Cricket Rankings</h3>
+                <ul></ul>
+            </div>
+
+            <!-- Premier League Standings -->
+            <div id="premier-league-standings">
+                <h3>Premier League</h3>
+                <ul></ul>
+            </div>
+        </aside>
+    
+            <!-- Main Content -->
+             <!-- Cricket News -->
+            <main id="main-content">
+                <section id="cricket" class="news-section">
+                    <h2>Cricket News</h2>
+                    <div class="news-grid" id="cricket-news"></div>
+                </section>
+    <!-- Football News -->
+                <section id="football" class="news-section">
+                    <h2>Football News</h2>
+                    <div class="news-grid" id="football-news"></div>
+                </section>
+    <!-- Football News -->
+                <section id="basketball" class="news-section">
+                    <h2>Basketball News</h2>
+                    <div class="news-grid" id="basketball-news"></div>
+                </section>
+                 <!-- Tennis News -->
+            <section id="tennis" class="news-section">
+                <h2>Volleyball News</h2>
+                <div class="news-grid" id="tennis-news"></div>
+            </section>
+
+            <!-- Kabaddi News -->
+            <section id="kabaddi" class="news-section">
+                <h2>Other Sports News</h2>
+                <div class="news-grid" id="kabaddi-news"></div>
+            </section>
+        </section>
+            </main>
+        </div>
+    
+<!--SCroll content-->
+       <!--<div class="scroll-container" id="scrollContainer">
+            <div class="scroll-item section1">
+                <img src="https://imgs.search.brave.com/spegjDfU3d27_9r8zZgp5W_T87KbSppKs_ubwvqXQIQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9saWJy/YXJ5LnNwb3J0aW5n/bmV3cy5jb20vc3R5/bGVzL2Nyb3Bfc3R5/bGVfMTZfOV9kZXNr/dG9wL3MzLzIwMjQt/MDkvbmJhLWNhbmFk/YS0tNDE5YTgxZWUt/NTM2NS00MjA5LWFl/NDctYTdiYjUzMGRi/YTNmLnBuZz9oPTky/MDkyOWM0Jml0b2s9/ekJLSDR4S2I" id="sec1">
+                <p>Check Out! Who are the top scorer's of 2024</p>
+            </div>
+            <div class="scroll-item section2">Discover Section 2</div>
+            <div class="scroll-item section3">Explore Section 3</div>
+            <div class="scroll-item section4">Enjoy Section 4</div>
+        </div> -->
+
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Contact us at: sportsnews@example.com | Phone: +123 456 789</p>
+            <p>&copy; 2024 Sports News. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
